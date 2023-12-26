@@ -231,7 +231,7 @@ h2 {
 
 
 /* MEDIA QUERIES FOR PHONES */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     #app {
         width: 100vw;
         height: 100vh;
@@ -243,7 +243,7 @@ h2 {
         width: 100%;
         padding: 2rem 1rem;
         position:fixed;
-        border-radius: 1rem;
+        
         top: 0;
         left: 0;
     }
@@ -256,9 +256,9 @@ h2 {
     }
 
     .btn.add_btn {
-        padding: 1.5rem;
-        font-size: 1.5rem;
+        padding: 1rem;
+        font-size: 1rem;
         bottom: 6%;
-        right: 2rem;
+        right: 1rem;
     }
 }
